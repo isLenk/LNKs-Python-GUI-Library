@@ -28,8 +28,8 @@ root.add(test_surface)
 test_surface2 = lgui.Surface((60, 60))
 test_surface2.position = pg.Vector2(30, 30)
 test_surface2.background_color = pg.Color(150, 0, 0)
-test_surface.add_child(test_surface2)
 
+test_surface.add_child(test_surface2)
 
 pg.display.set_caption("LNK Gui Library Sandbox")
 clock = pg.time.Clock()
